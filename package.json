@@ -1,0 +1,24 @@
+{
+  "name": "skyeng-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bottlejs": "^1.2.1",
+    "jasmine-data-provider": "^2.2.0",
+    "jasmine-spec-reporter": "^2.4.0",
+    "lodash": "^4.0.0",
+    "protractor": "^3.0.0",
+    "protractor-helpers": "^1.0.0",
+    "mail-listener2": "^0.1.8"
+  },
+  "scripts": {
+    "test": "protractor conf.js",
+    "postinstall": "webdriver-manager update"
+  },
+  "author": "Dmitry Sotnikov (dmytro.sotnikov@gmail.com)",
+  "license": "ISC"
+}
